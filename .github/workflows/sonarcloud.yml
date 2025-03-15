@@ -23,6 +23,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '11'
+          distribution: 'temurin' # Especifica la distribución requerida
 
       # Paso 3: Hacer caché de las dependencias de SonarCloud
       - name: Cache SonarCloud dependencies
